@@ -1,6 +1,6 @@
 import sqlite3
 
-# Создание базы данных и подключение к ней
+
 def create_db():
     conn = sqlite3.connect('hw.db')
     cursor = conn.cursor()
